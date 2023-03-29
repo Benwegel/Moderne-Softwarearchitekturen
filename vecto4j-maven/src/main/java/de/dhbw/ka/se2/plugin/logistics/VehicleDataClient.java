@@ -37,7 +37,7 @@ public class VehicleDataClient {
 		}
 
 		// Request vorbereiten
-		Request request = Request.post("https://vehicle-data.dh.dtr0cks.de/api/v1/vehicle/components")
+		Request request = Request.post("https://vehicle-data.dh.dtr0cks.de/api/v1/vehicles/components")
 				.bodyStream(in)
 				.addHeader("Content-Type", "application/json")
 				.addHeader("Accept", "application/json");
